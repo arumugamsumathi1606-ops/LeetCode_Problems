@@ -8,6 +8,7 @@ public class FirstNonRepeatingCountDemo {
         //Find the count frequency
         for (int i=0; i<s.length() ; i++)
     {
+        //i passed to ch[i]
         char ch = s.charAt(i);
         if(map.containsKey(ch))
         {
